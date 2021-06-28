@@ -1,0 +1,71 @@
+* {
+  font-family: arvo;
+}
+body {
+  background-color: rgb(161, 147, 147);
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 500px) {
+  #ul {
+    margin: 0;
+  }
+}
+#centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
+}
+img {
+  height: 330px;
+}
+h1,
+h4,
+h3 {
+  color: rgb(255, 0, 0);
+  margin: 0;
+}
+h3 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 0, 255);
+}
+/* problem is there why backgroud of list not change according to container
+problem solve due to universal property defines */
+
+#ul {
+  background-color: rgb(44, 136, 216);
+  margin: 0px 60px;
+  padding: 15px 25px;
+  border: 3px dotted black;
+  border-radius: 20px;
+}
+li {
+  border-top: 2px dotted black;
+  margin: 10px;
+  padding: 5px;
+}
+#li1 {
+  border: none;
+}
+
+#blockquote {
+  text-align: center;
+}
+cite {
+  display: block;
+  text-align: right;
+  color: crimson;
+  margin-top: 8px;
+  font-weight: 600;
+}
+q {
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(25, 0, 255);
+}
